@@ -73,17 +73,6 @@
 // aa()
 
 
-// function a() {
-//     var x = 100
-//     function b() {
-//         y = 10
-//         function c() {
-//             console.log(x,y);
-//         }
-//         return c
-//     }
-//     return b;
-// }
 
 // var fun1 = a()
 // console.log(fun1());
@@ -125,3 +114,16 @@ var innerFunc = outer();
 innerFunc();
     
 innerFunc();
+
+
+function a() {
+    var x = 100
+    function b() {
+        y = 10
+        function c() {
+            console.log(x,y);
+        }
+        return c
+    }
+    return b;
+}
